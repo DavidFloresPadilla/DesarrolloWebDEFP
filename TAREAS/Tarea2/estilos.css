@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container{
+    width: 900px;
+    margin: 20px auto;
+    border: 1px solid #edeaea;
+    background-color: rgb(142, 242, 229);
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.15);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #142e55;
+    padding: 15px 25px;
+}
+
+header h1{
+    color: white;
+    font-size: 22px;
+    margin: 0;
+}
+
+header p{
+    color: #dce6f1;
+    margin: 0;
+}
+
+.cuerpo{
+    display: flex;
+}
+
+.cuerpo aside{
+    width: 20%;
+    background-color: rgb(162, 204, 241);
+    padding: 15px;
+}
+
+.cuerpo main{
+    width: 80%;
+    padding: 20px;
+}
+
+ul.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.menu li{
+    margin-bottom: 8px;
+}
+
+ul.menu li a{
+    display: block;
+    text-decoration: none;
+    color: #142e55;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+ul.menu li a:hover{
+    background-color: #142e55;
+    color: white;
+}
+
+main h2{
+    color: #142e55;
+    border-bottom: 2px solid #142e55;
+    padding-bottom: 5px;
+}
+
+main table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+main table th, main table td{
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+main table th{
+    background-color: #142e55;
+    color: white;
+}
+
+main ol, main ul{
+    line-height: 1.6;
+}
