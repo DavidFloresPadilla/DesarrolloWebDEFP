@@ -1,0 +1,165 @@
+body {
+    color: #2c3e50;
+    background-color: #f4f6f7;
+    line-height: 1.5;
+}
+
+h2 {
+    color: #27305c;
+    padding-bottom: 6px;
+}
+table {
+    width: 100%;
+    margin-top: 10px;
+}
+.cabecera {
+    background-color: #1f4566;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px 25px;
+}
+
+.cabecera-marca {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecera-titulos p {
+    margin: 2px 0 0 0;
+    font-size: 13px;
+    color: #cbd8e6;
+}
+
+.cabecera-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.cabecera-menu ul li a {
+    color: white;
+    background-color: #2e5c81;
+}
+
+.banner {
+    border-color: #1f4566;
+    border-width: 10px;
+    border-style: solid;
+}
+
+main {
+    max-width: 950px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+.seccion {
+    background-color: white;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.seccion h3 {
+    color: #2e5c81;
+    margin-bottom: 8px;
+}
+
+.figura-taller {
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.figura-taller img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.figura-taller figcaption {
+    font-style: italic;
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+caption {
+    text-align: left;
+    color: #849092;
+    padding-bottom: 8px;
+}
+
+th, td {
+    border: 1px solid #dcdfe1;
+    padding: 10px;
+    text-align: center;
+}
+
+thead tr {
+    background-color: #1f4566;
+    color: white;
+}
+
+.seccion fieldset {
+    border: 1px solid #d7dbde;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+}
+
+.seccion legend {
+    
+    background-color: #1f4566;
+    color: white;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 14px;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.campo-opciones {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.botones-form {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+button[type="submit"] {
+    background-color: #1f4566;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: red;
+    color: white;
+}
+.pie {
+    background-color: #1f4566;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    font-size: 14px;
+}
+
+.pie a {
+    color: white;
+}
