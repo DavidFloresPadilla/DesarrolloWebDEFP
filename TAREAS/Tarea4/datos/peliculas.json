@@ -1,0 +1,10 @@
+[
+  { "titulo": "Volver al Futuro", "anio": 1985, "genero": "Comedia" },
+  { "titulo": "El Caballero de la Noche", "anio": 2008, "genero": "Acción" },
+  { "titulo": "Intensamente", "anio": 2015, "genero": "Comedia" },
+  { "titulo": "Gladiador", "anio": 2000, "genero": "Acción" },
+  { "titulo": "En busca de la felicidad", "anio": 2006, "genero": "Drama" },
+  { "titulo": "El Rey León", "anio": 1994, "genero": "Drama" },
+  { "titulo": "Mad Max: Furia en el camino", "anio": 2015, "genero": "Acción" },
+  { "titulo": "Coco", "anio": 2017, "genero": "Comedia" }
+]

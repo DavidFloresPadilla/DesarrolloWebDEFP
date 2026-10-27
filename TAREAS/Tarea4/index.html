@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pagina personal con AJAX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Hola, soy David</h1>
+    <p>Estudiante universitario. Esta página usa AJAX para cargar su contenido sin recargar.</p>
+  </header>
+
+  <main>
+
+    <section>
+      <h2>Sobre mi</h2>
+      <div id="perfil">Cargando perfil...</div>
+    </section>
+
+    <section>
+      <h2>Mis peliculas favoritas</h2>
+      <p>Elige un genero:</p>
+      <div class="botones">
+        <button data-genero="todas">Todas</button>
+        <button data-genero="Accion">Accion</button>
+        <button data-genero="Comedia">Comedia</button>
+        <button data-genero="Drama">Drama</button>
+      </div>
+      <ul id="lista-peliculas"></ul>
+    </section>
+
+    <section>
+      <h2>Frase del momento</h2>
+      <p id="frase">Pulsa el boton para ver una frase.</p>
+      <button id="btn-frase">Otra frase</button>
+    </section>
+
+    <section>
+      <h2>Dejame un mensaje</h2>
+      <form id="formulario">
+        <input type="text" id="nombre" placeholder="Tu nombre" required>
+        <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="respuesta"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Hecho para la materia de SIS256</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

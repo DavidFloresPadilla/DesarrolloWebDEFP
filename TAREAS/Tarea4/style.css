@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #f2f4f7;
+  color: #222;
+  line-height: 1.5;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0 0 8px;
+}
+
+main {
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border-left: 5px solid #e67e22;
+}
+
+h2 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+button {
+  background: #2c3e50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 3px 3px 3px 0;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #e67e22;
+}
+
+button.activo {
+  background: #e67e22;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #3498db;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+textarea {
+  height: 90px;
+  resize: vertical;
+}
+
+#respuesta {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-size: 14px;
+}
